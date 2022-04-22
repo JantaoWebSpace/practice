@@ -19,7 +19,7 @@ body.dark {
 }
 button {
    cursor: pointer;
-   padding: 0.5rem 2rem;
+   padding: 0.5rem 1rem;
    margin: 20px;
    border-radius: 10px;
    box-shadow: 0 0 20px 0 rgba(167, 166, 166, 0.8);
@@ -33,5 +33,4 @@ header ul {
    display: flex;
    gap: 20px;
    align-items: center;
-   
 }
