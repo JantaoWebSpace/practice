@@ -28,9 +28,15 @@ header {
    position: relative;
    width: 100vw;
    height: 10vh;
+   border: 1px solid gray;
+   display: flex;
 }
 header ul {
    display: flex;
-   gap: 20px;
+
    align-items: center;
+}
+header li {
+   margin: 20px;
+   cursor: pointer;
 }
