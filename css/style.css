@@ -31,12 +31,19 @@ header {
    border: 1px solid gray;
    display: flex;
 }
-header ul {
+header ul, footer ul {
    display: flex;
 
    align-items: center;
 }
-header li {
+header li, footer li {
    margin: 20px;
    cursor: pointer;
 }
+footer {
+   position: relative;
+   width: 100vw;
+   height: 10vh;
+   border: 1px solid gray;
+   bottom:10vh;
+   display: flex;
